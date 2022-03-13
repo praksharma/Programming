@@ -5,3 +5,7 @@ During, TechFest 2018, in my B.tech (Bachelors in Engineering), I had the previl
 Plickers: https://get.plickers.com/
 
 Date of final creation: 13-Feb-2018
+
+![image](https://user-images.githubusercontent.com/70601302/158071667-3eadc32c-5009-4595-b07f-4d37472c841a.png)
+
+The App is distorted in newer version of MATLAB. I added the menu bar and a button to add new student.
