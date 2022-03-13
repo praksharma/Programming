@@ -1,4 +1,4 @@
-This project a part of my School's final year. I wrote this project in C++ to maintain a simple database of elements in the periodic table. At that time, I was using Windows 8 (not 8.1).
+This project was a part of my School's final year project in Computer Science. I wrote this project in C++ to maintain a simple database of elements in the periodic table. At that time, I was using Windows 8 (not 8.1).
 
 You can't run these files directly. These files must be compiled to .exe extension and then put all of them in 1 directory.
 Date: Around February 2014
