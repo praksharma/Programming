@@ -7,3 +7,7 @@ Singly reinforced beam have reinforcement of steel rods in the tension zone as t
 I created this very basic GUI when I was learning structural design in my Bachelors. This GUI can print the number of steel rods, its dimension and other critical parameters.
 
 Date of final creation: 22-Nov-2017
+
+![empty](https://user-images.githubusercontent.com/70601302/158071500-95653bf1-8cb5-465d-a9ee-2ec8e9ec1c01.JPG)
+![final](https://user-images.githubusercontent.com/70601302/158071503-fde856e4-a1eb-432e-9d6c-54518256d7c2.JPG)
+![step1](https://user-images.githubusercontent.com/70601302/158071508-666f66fd-fe2e-4053-9a9c-ffd4a8439efa.JPG)
