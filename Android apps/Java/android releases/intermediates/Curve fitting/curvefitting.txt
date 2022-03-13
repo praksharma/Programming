@@ -1,0 +1,62 @@
+package com.hacker.prakharsharma.curvefitting;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+ private int[] x={R.id.x1,R.id.x2,R.id.x3,R.id.x4,R.id.x5};
+    private int[] y={R.id.y1,R.id.y2,R.id.y3,R.id.y4,R.id.y5};
+    private TextView t1,t2,t3,t4,rsq,res;
+    private Button calc;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        start();
+    }
+
+    private void start() {
+        t1 = (TextView) findViewById(R.id.t1r);
+        t2 = (TextView) findViewById(R.id.t2r);
+        t3 = (TextView) findViewById(R.id.t3r);
+        t4 = (TextView) findViewById(R.id.t4r);
+        rsq = (TextView) findViewById(R.id.err);
+        res = (TextView) findViewById(R.id.eqn);
+        calc = (Button) findViewById(R.id.calc);
+        calc.setOnClickListener(this);
+    }
+    @Override
+    public void onClick(View v) {
+        int i,tot1,tot2,tot3,tot4,error,a,b;
+        tot1=tot2=tot3=tot4=error=a=b=0;
+        for(i=0;i<5;i++)
+        {
+            tot1=tot1+x[i];
+            tot2=tot2+x[i]*x[i];
+            tot3=tot3+y[i];
+            tot4=tot4+x[i]*y[i];
+
+        }
+        b=(tot1*tot3-5*tot4)/(tot1*tot1-5*tot2);
+        a=(tot3-b*tot1)/5;
+        t1.setText(String.valueOf(tot1));
+        t2.setText(String.valueOf(tot2));
+        t3.setText(String.valueOf(tot3));
+        t4.setText(String.valueOf(tot4));
+        for(i=0;i<5;i++)
+        {
+            error=error+(y[i]-a-b*x[i])*(y[i]-a-b*x[i]);
+        }
+        rsq.setText(String.valueOf(error));
+        res.setText("Y= ");
+        res.append(String.valueOf(a));
+        res.append("+");
+        res.append(String.valueOf(b));
+        res.append("X");
+    }
+}
