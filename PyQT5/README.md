@@ -13,3 +13,6 @@ pyuic5 -x <uiFilePath> -o <targetFilePath>
 
 ## Building runfile
 Use PyInstaller.
+
+## Follow this playlist
+https://www.youtube.com/playlist?list=PL3JVwFmb_BnRpvOeIh_To4YSiebiggyXS
