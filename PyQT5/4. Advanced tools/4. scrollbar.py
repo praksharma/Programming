@@ -11,7 +11,7 @@ class MyApp(QWidget):
     def add_scrollbar(self):
         scroll = QScrollBar(self)
         scroll.setGeometry(300-30,30,30,300-30)
-        scroll.valueChanged.connect(lambda: print(f"Scroll value : {scroll.value()}"))
+        scroll.valueChanged.connect(lambda: print(f"Scroll value : {scroll.value()}"))  # print current value if scrollbar is moved
 
 
 if __name__ == "__main__":
