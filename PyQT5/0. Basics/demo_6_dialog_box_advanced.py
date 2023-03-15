@@ -7,6 +7,7 @@ In this example we pop-up a dialog box when the PushButton is pressed
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QMessageBox
 
+# A function handler for creating a dialog box
 def dialog_box():
     mbox = QMessageBox()
     mbox.setWindowTitle("Superuser access denied")
