@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>APP NAME</Name>
+    <Version>1.0.0</Version>
+    <Title>INSTALLER WINDOW TITLE</Title>
+    <Publisher>Scythe Studio</Publisher>
+    <StartMenuDir>START_MENU_DIR</StartMenuDir>
+    <TargetDir>@HomeDir@/APP_DIR</TargetDir>
+</Installer>
