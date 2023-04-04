@@ -12,7 +12,10 @@ pyuic5 -x <uiFilePath> -o <targetFilePath>
 ```
 
 ## Building runfile
-Use PyInstaller.
+Ok don't use [PyInstaller, pyqtdeploy, cx_Freeze etc](https://stackoverflow.com/a/56695405/14598633). Here are better ways to do this.
+
+* Create your own installer using [QWizard](https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/QWizard.html). This requires quite a lot of effort.
+* Use [FBS installer](https://github.com/mherrmann/fbs). It is FOSS, so a win-win.
 
 ## Follow this playlist
 https://www.youtube.com/playlist?list=PL3JVwFmb_BnRpvOeIh_To4YSiebiggyXS
