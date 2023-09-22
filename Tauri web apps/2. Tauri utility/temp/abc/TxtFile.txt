@@ -1,0 +1,8 @@
+1. install utlity
+cargo install create-tauri-app --locked
+
+2. Create minimal
+cargo create-tauri-app
+
+3. Compile
+cargo tauri dev

@@ -1,0 +1,9 @@
+Some fixes: https://github.com/tauri-apps/tauri/issues/7666
+
+1. use tauri
+cargo tauri init
+
+2. Edit file based on the above fix
+
+3. compile
+cargo tauri dev
