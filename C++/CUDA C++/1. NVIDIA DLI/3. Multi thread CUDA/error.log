@@ -1,2 +1,2 @@
-WARNING: add_gpu and any of its children processes will be profiled.
-
+Warning: LBR backtrace method is not supported on this platform. DWARF backtrace method will be used.
+/tmp/slurmd/job7618661/slurm_script: line 19:  9195 Bus error               nsys profile --stats=true ./add_gpu

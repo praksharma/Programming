@@ -9,12 +9,13 @@
 #SBATCH --account=scw1901
 #SBATCH --partition=accel_ai
 
-module load compiler/gnu/11/3.0
+module load compiler/gnu/9/2.0
 module load CUDA/11.7
 
 nvcc add_gpu_single_thread.cu -o add_gpu
 echo "GPU only version: Completed"
 
-nsys nvprof --print-gpu-trace ./add_gpu
+#nsys nvprof --print-gpu-trace ./add_gpu
+nsys profile --stats=true ./add_gpu
 echo "nsys profiling: Completed"
 
