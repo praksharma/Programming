@@ -72,6 +72,22 @@ void add(int n, float *x, float *y)
 
 The code runs with `nvcc` but I couldn't get it profiled with `nsys`. I get some `bus error` which seems impossible to fix. This is big rabbit hole and it isn't worth it.
 
+## Try on a local GPU
+So, I retried this on a local GPU. NVIDIA Night is available on Ubuntu's repo.
+```sh
+sudo apt install nsight-systems-2023.2.3
+```
+Once can profile an executable using
+```sh
+nsys profile --stats=true ./add_gpu>>profiling.txt
+```
+In folder 2 and 3 the results are stored in profiling.txt. Here is the time taken to execute the `add()` function.
+
+* Single thread: Approximately 116.26 milliseconds (116,258,314 ns)
+* 256 threads: Approximately 8.55 milliseconds (8,546,598 ns)
+
+So, 256 threads performed 13.6 times faster than single thread.
+
 ## Files
 * `add_cpu.cpp` : calculation with single core CPU
 * `add_gpu_single_thread.cu` : calculation with single thread GPU
