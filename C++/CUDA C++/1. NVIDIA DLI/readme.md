@@ -49,6 +49,29 @@ nsys nvprof --print-gpu-trace ./add_gpu
 
 We need to be very careful, that the CUDA module version matches the GNU G++ compiler version. See `job.sh` for specific versions.
 
+## Parallel GPU threads
+**Remember these are GPU threads not CPU threads**
+In the following command, the second elements tells the number of thread in a thread block. Each thread block can have multiple of 32 threads. The warp, which is the smallest execution unit in a CUDA-capable GPU. A warp consists of 32 threads that are executed simultaneously. While one isn't not strictly required to make the number of threads in a block a multiple of 32, doing so is often beneficial for performance reasons.
+
+```cpp
+add<<<1, 256>>>(N, x, y);
+```
+
+Now we also need to modify the kernel. Specifically, `threadIdx.x` contains the index of the current thread within its block, and `blockDim.x` contains the number of threads in the block.
+
+```cpp
+__global__
+void add(int n, float *x, float *y)
+{
+  int index = threadIdx.x;
+  int stride = blockDim.x;
+  for (int i = index; i < n; i += stride)
+      y[i] = x[i] + y[i];
+}
+```
+
+The code runs with `nvcc` but I couldn't get it profiled with `nsys`. I get some `bus error` which seems impossible to fix. This is big rabbit hole and it isn't worth it.
+
 ## Files
 * `add_cpu.cpp` : calculation with single core CPU
 * `add_gpu_single_thread.cu` : calculation with single thread GPU
