@@ -1,0 +1,24 @@
+{
+  "id" : "org.flatpak.Hello",
+  "runtime" : "org.freedesktop.Platform",
+  "runtime-version" : "23.08",
+  "runtime-commit" : "deea5f08d3f27f6e1a9a15e5c269abfb5d080c183b4662a8649bbe5532f18bb2",
+  "sdk" : "org.freedesktop.Sdk",
+  "sdk-commit" : "4b13836d9be63f8e00e1da19fa7b28b23f1bc0e26648fd6d8d66af347643a2da",
+  "command" : "hello.sh",
+  "modules" : [
+    {
+      "name" : "hello",
+      "buildsystem" : "simple",
+      "sources" : [
+        {
+          "path" : "hello.sh",
+          "type" : "file"
+        }
+      ],
+      "build-commands" : [
+        "install -D hello.sh /app/bin/hello.sh"
+      ]
+    }
+  ]
+}
