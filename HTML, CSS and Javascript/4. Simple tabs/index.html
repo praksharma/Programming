@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Tab1')">Tab 1</button>
+            <button class="tablinks" onclick="openTab(event, 'Tab2')">Tab 2</button>
+            <button class="tablinks" onclick="openTab(event, 'Tab3')">Tab 3</button>
+          </div>
+          
+          <div id="Tab1" class="tabcontent">
+            <h3>Tab 1</h3>
+            <p>This is Tab 1 content.</p>
+            <button id="checkBtn">Check</button>
+            <input type="text" id="readonlyTextbox" value="Readonly Textbox Content" readonly style="display:none;">
+
+          </div>
+          
+          <div id="Tab2" class="tabcontent">
+            <h3>Tab 2</h3>
+            <p>This is Tab 2 content.</p>
+          </div>
+          
+          <div id="Tab3" class="tabcontent">
+            <h3>Tab 3</h3>
+            <p>This is Tab 3 content.</p>
+          </div>
+          
+          
+        <script src="script.js"></script>
+    </body>
+</html>
