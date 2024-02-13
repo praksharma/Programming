@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="calc">
+            <input id="disp" readonly>
+            <div id="buttons">
+                <button onclick="appendfunc('+')" class="btnfunc">+</button>
+                <button onclick="appendfunc('7')">7</button>
+                <button onclick="appendfunc('8')">8</button>
+                <button onclick="appendfunc('9')">9</button>
+                <button onclick="appendfunc('-')" class="btnfunc">-</button>
+                <button onclick="appendfunc('4')">4</button>
+                <button onclick="appendfunc('5')">5</button>
+                <button onclick="appendfunc('6')">6</button>
+                <button onclick="appendfunc('*')" class="btnfunc">*</button>
+                <button onclick="appendfunc('1')">1</button>
+                <button onclick="appendfunc('2')">2</button>
+                <button onclick="appendfunc('3')">3</button>
+                <button onclick="appendfunc('/')" class="btnfunc">/</button>
+                <button onclick="appendfunc('0')">0</button>
+                <button onclick="appendfunc('.')">.</button>
+
+                <button onclick="calculate()">=</button>
+                <button onclick="ClrDisp()" class="btnfunc">C</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
