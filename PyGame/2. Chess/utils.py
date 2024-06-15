@@ -22,3 +22,8 @@ def load_image():
     print(images_dict)
 
     return images_dict
+
+def get_clicked_square(pos):
+    clicked_row = pos[0] // SQUARE_SIZE
+    clicked_col = pos[1] // SQUARE_SIZE
+    return clicked_col, clicked_row
