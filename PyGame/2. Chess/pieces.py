@@ -25,7 +25,10 @@ class Pawn(ChessPiece):
         super().__init__(image, colour, position)
         self.moves = pawn_moves(colour, position)
 
-class King(ChessPiece): pass
+class King(ChessPiece): 
+    def __init__(self, image, colour, position):
+        super().__init__(image, colour, position)
+        
 class Queen(ChessPiece): pass
 class Bishop(ChessPiece): pass
 class Knight(ChessPiece): pass

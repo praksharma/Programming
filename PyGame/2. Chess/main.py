@@ -3,7 +3,7 @@ from utils import SCREEN_WIDTH, SCREEN_HEIGHT, SQUARE_SIZE, WHITE, GREEN
 from utils import load_image
 
 # importing pieces
-from pieces import Pawn
+from pieces import Pawn, King, Queen, Bishop, Knight, Rook
 
 # intialise pygame
 pygame.init()
@@ -41,15 +41,49 @@ class ChessBoard:
         pygame.display.update()
     
     def initial_piece_location(self):
-        # let us only initialise the pawn for now
+        # list of all pieces
         self.pieces = []
+
+        # draw pawns
         for col in range(8):
             self.pieces.append(Pawn(self.images_dict["white_pawn"],
                                "white", (6, col)))
             self.pieces.append(Pawn(self.images_dict["black_pawn"],
                                "black", (1, col)))
-        print(f"DEBUG: Initial pieces: {[(p.colour, p.position) for p in self.pieces]}")
-    
+        # print(f"DEBUG: Initial pieces: {[(p.colour, p.position) for p in self.pieces]}")
+
+        # draw kings
+        self.pieces.append(King(self.images_dict["white_king"],
+                               "white", (7, 4)))
+        self.pieces.append(King(self.images_dict["black_king"],
+                                 "black", (0, 4)))
+        
+        # draw queens
+        self.pieces.append(Queen(self.images_dict["white_queen"],
+                               "white", (7, 3)))
+        self.pieces.append(Queen(self.images_dict["black_queen"],
+                                    "black", (0, 3)))
+        
+        # draw bishops
+        for i in [2, 5]:
+            self.pieces.append(Bishop(self.images_dict["white_bishop"],
+                                "white", (7, i)))
+            self.pieces.append(Bishop(self.images_dict["black_bishop"],
+                                    "black", (0, i)))
+        
+        # draw knights
+        for i in [1, 6]:
+            self.pieces.append(Knight(self.images_dict["white_knight"],
+                                "white", (7, i)))
+            self.pieces.append(Knight(self.images_dict["black_knight"],
+                                    "black", (0, i)))
+        # draw rooks
+        for i in [0, 7]:
+            self.pieces.append(Rook(self.images_dict["white_rook"],
+                                "white", (7, i)))
+            self.pieces.append(Rook(self.images_dict["black_rook"],
+                                    "black", (0, i)))
+        
     def draw_all_pieces(self):
         for piece in self.pieces:
             piece.draw(self.screen)
