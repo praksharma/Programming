@@ -1,0 +1,88 @@
+                                Gauss Quadrature for FEM
+Enter dimension of integration(1,2,3): 1
+
+Enter Integrand Function in (x,y,z): 8*x^7+7*x^6
+Enter Order of x: 7
+
+i =
+
+     1
+
+
+wx =
+
+    0.6521
+
+
+x =
+
+    0.3400
+
+
+sum =
+
+    0.0098
+
+
+i =
+
+     2
+
+
+wx =
+
+    0.6521
+
+
+x =
+
+   -0.3400
+
+
+sum =
+
+    0.0141
+
+
+i =
+
+     3
+
+
+wx =
+
+    0.3479
+
+
+x =
+
+    0.8611
+
+
+sum =
+
+    1.9843
+
+
+i =
+
+     4
+
+
+wx =
+
+    0.3479
+
+
+x =
+
+   -0.8611
+
+
+sum =
+
+    2.0000
+
+
+The Integral I =  2.000000
+>> 

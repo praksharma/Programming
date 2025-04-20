@@ -1,0 +1,659 @@
+                                  Numerical Integration
+Enter a  function
+x*2
+Enter Upper Limit of integration
+20
+Enter Lower limit of integration
+0
+
+tab =
+
+  Columns 1 through 15
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+x =
+
+     0
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+x =
+
+     1
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     2     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     0     0     0     0     0     0     0     0     0     0     0     0
+     0     2     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+x =
+
+     2
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     0     0     0     0     0     0     0     0     0     0     0     0
+     0     2     4     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     0     0     0     0     0     0     0     0     0     0     0
+     0     2     4     0     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+x =
+
+     3
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     0     0     0     0     0     0     0     0     0     0     0
+     0     2     4     6     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     0     0     0     0     0     0     0     0     0     0
+     0     2     4     6     0     0     0     0     0     0     0     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+x =
+
+     4
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     0     0     0     0     0     0     0     0     0     0
+     0     2     4     6     8     0     0     0     0     0     0     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     0     0     0     0     0     0     0     0     0
+     0     2     4     6     8     0     0     0     0     0     0     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+x =
+
+     5
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     0     0     0     0     0     0     0     0     0
+     0     2     4     6     8    10     0     0     0     0     0     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     0     0     0     0     0     0     0     0
+     0     2     4     6     8    10     0     0     0     0     0     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+x =
+
+     6
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     0     0     0     0     0     0     0     0
+     0     2     4     6     8    10    12     0     0     0     0     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     0     0     0     0     0     0     0
+     0     2     4     6     8    10    12     0     0     0     0     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+x =
+
+     7
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     0     0     0     0     0     0     0
+     0     2     4     6     8    10    12    14     0     0     0     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     0     0     0     0     0     0
+     0     2     4     6     8    10    12    14     0     0     0     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+x =
+
+     8
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     0     0     0     0     0     0
+     0     2     4     6     8    10    12    14    16     0     0     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9     0     0     0     0     0
+     0     2     4     6     8    10    12    14    16     0     0     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+x =
+
+     9
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9     0     0     0     0     0
+     0     2     4     6     8    10    12    14    16    18     0     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10     0     0     0     0
+     0     2     4     6     8    10    12    14    16    18     0     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+x =
+
+    10
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10     0     0     0     0
+     0     2     4     6     8    10    12    14    16    18    20     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10    11     0     0     0
+     0     2     4     6     8    10    12    14    16    18    20     0     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+x =
+
+    11
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10    11     0     0     0
+     0     2     4     6     8    10    12    14    16    18    20    22     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10    11    12     0     0
+     0     2     4     6     8    10    12    14    16    18    20    22     0     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+x =
+
+    12
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10    11    12     0     0
+     0     2     4     6     8    10    12    14    16    18    20    22    24     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10    11    12    13     0
+     0     2     4     6     8    10    12    14    16    18    20    22    24     0     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+x =
+
+    13
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10    11    12    13     0
+     0     2     4     6     8    10    12    14    16    18    20    22    24    26     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10    11    12    13    14
+     0     2     4     6     8    10    12    14    16    18    20    22    24    26     0
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+x =
+
+    14
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10    11    12    13    14
+     0     2     4     6     8    10    12    14    16    18    20    22    24    26    28
+
+  Columns 16 through 20
+
+     0     0     0     0     0
+     0     0     0     0     0
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10    11    12    13    14
+     0     2     4     6     8    10    12    14    16    18    20    22    24    26    28
+
+  Columns 16 through 20
+
+    15     0     0     0     0
+     0     0     0     0     0
+
+
+x =
+
+    15
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10    11    12    13    14
+     0     2     4     6     8    10    12    14    16    18    20    22    24    26    28
+
+  Columns 16 through 20
+
+    15     0     0     0     0
+    30     0     0     0     0
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10    11    12    13    14
+     0     2     4     6     8    10    12    14    16    18    20    22    24    26    28
+
+  Columns 16 through 20
+
+    15    16     0     0     0
+    30     0     0     0     0
+
+
+x =
+
+    16
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10    11    12    13    14
+     0     2     4     6     8    10    12    14    16    18    20    22    24    26    28
+
+  Columns 16 through 20
+
+    15    16     0     0     0
+    30    32     0     0     0
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10    11    12    13    14
+     0     2     4     6     8    10    12    14    16    18    20    22    24    26    28
+
+  Columns 16 through 20
+
+    15    16    17     0     0
+    30    32     0     0     0
+
+
+x =
+
+    17
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10    11    12    13    14
+     0     2     4     6     8    10    12    14    16    18    20    22    24    26    28
+
+  Columns 16 through 20
+
+    15    16    17     0     0
+    30    32    34     0     0
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10    11    12    13    14
+     0     2     4     6     8    10    12    14    16    18    20    22    24    26    28
+
+  Columns 16 through 20
+
+    15    16    17    18     0
+    30    32    34     0     0
+
+
+x =
+
+    18
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10    11    12    13    14
+     0     2     4     6     8    10    12    14    16    18    20    22    24    26    28
+
+  Columns 16 through 20
+
+    15    16    17    18     0
+    30    32    34    36     0
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10    11    12    13    14
+     0     2     4     6     8    10    12    14    16    18    20    22    24    26    28
+
+  Columns 16 through 20
+
+    15    16    17    18    19
+    30    32    34    36     0
+
+
+x =
+
+    19
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10    11    12    13    14
+     0     2     4     6     8    10    12    14    16    18    20    22    24    26    28
+
+  Columns 16 through 20
+
+    15    16    17    18    19
+    30    32    34    36    38
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10    11    12    13    14
+     0     2     4     6     8    10    12    14    16    18    20    22    24    26    28
+
+  Columns 16 through 21
+
+    15    16    17    18    19    20
+    30    32    34    36    38     0
+
+
+x =
+
+    20
+
+
+tab =
+
+  Columns 1 through 15
+
+     0     1     2     3     4     5     6     7     8     9    10    11    12    13    14
+     0     2     4     6     8    10    12    14    16    18    20    22    24    26    28
+
+  Columns 16 through 21
+
+    15    16    17    18    19    20
+    30    32    34    36    38    40
+
+>> 

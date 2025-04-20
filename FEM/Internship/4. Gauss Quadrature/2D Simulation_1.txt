@@ -1,0 +1,160 @@
+                                Gauss Quadrature for FEM
+Enter dimension of integration(1,2,3): 2
+
+Enter Integrand Function in (x,y,z): x^2*y^4+x*y^5
+Enter Order of x: 2
+
+Enter Order of y: 5
+
+i =
+
+     1
+
+
+wx =
+
+     1
+
+
+x =
+
+    0.5774
+
+
+j =
+
+     1
+
+
+wy =
+
+    0.8889
+
+
+y =
+
+     0
+
+
+sum =
+
+     0
+
+
+j =
+
+     2
+
+
+wy =
+
+    0.5556
+
+
+y =
+
+    0.7746
+
+
+sum =
+
+    0.1561
+
+
+j =
+
+     3
+
+
+wy =
+
+    0.5556
+
+
+y =
+
+   -0.7746
+
+
+sum =
+
+    0.1333
+
+
+i =
+
+     2
+
+
+wx =
+
+     1
+
+
+x =
+
+   -0.5774
+
+
+j =
+
+     1
+
+
+wy =
+
+    0.8889
+
+
+y =
+
+     0
+
+
+sum =
+
+    0.1333
+
+
+j =
+
+     2
+
+
+wy =
+
+    0.5556
+
+
+y =
+
+    0.7746
+
+
+sum =
+
+    0.1106
+
+
+j =
+
+     3
+
+
+wy =
+
+    0.5556
+
+
+y =
+
+   -0.7746
+
+
+sum =
+
+    0.2667
+
+
+The Integral I =  0.266667
+>> 

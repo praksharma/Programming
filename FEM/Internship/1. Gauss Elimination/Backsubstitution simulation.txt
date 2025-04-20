@@ -1,0 +1,56 @@
+                                Gauss Elimination Method
+ Enter Augmented Matrix
+[1 -2 9 8;3 1 -1 3;2 8 1 -5]
+Starting Forward Elimination
+
+x =
+
+     0
+     0
+     0
+
+
+x =
+
+         0
+         0
+    0.4839
+
+Starting Back Substitution
+
+sum =
+
+  -13.5484
+
+
+x =
+
+         0
+   -1.0645
+    0.4839
+
+
+sum =
+
+    2.1290
+
+
+sum =
+
+    6.4839
+
+
+x =
+
+    1.5161
+   -1.0645
+    0.4839
+
+
+x =
+
+    1.5161
+   -1.0645
+    0.4839
+
+>> 

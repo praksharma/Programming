@@ -1,0 +1,14 @@
+
+c=2;
+DOFPN=2;
+P=[c+c/DOFPN c+2*c/DOFPN];
+for i=1:size_K
+    for j=1:size_K
+        if (j<=length(KE))&&(i<=length(KE))  % Assemble Matrix KE1
+             K(i,j)=K(i,j)+KE(i,j);
+        end
+        if ((j>=P(1))&&(i>=P(1)))              % Assemble Matrix KE2
+            K(i,j)=K(i,j)+KE2(i-c,j-c);
+        end
+    end
+end 

@@ -1,0 +1,1 @@
+So, I am putting some code that I wrote back when I was a 3rd year student and was a doing an internship at IIT, BHU on topics like FEM, ANSYS, plates etc. I have also included some code that were part of my 4th years Bachelor thesis. I lost some codes because the mechanical hard drive of HP Probook 4510s decided to fail.
